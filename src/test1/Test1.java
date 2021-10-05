@@ -14,7 +14,7 @@ public class Test1 {
             Node[] p = readData(input);
             Node[] q = readData(input);
             Node[] sum = add(p, q);
-            System.out.printf("Test %d: \n", count);
+            System.out.printf("Test %d: \n", count++);
             Node[] result = derivetive(sum);
             Node[] product = mul(p, q);
             showData(sum);
